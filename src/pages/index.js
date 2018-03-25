@@ -22,8 +22,8 @@ const StyledLink = styled(Link)`
 const IndexPage = () => (
   <Container>
     <h1>Makapala PDM XIX</h1>
-    <p>Satu Tim Satu Nyawa  | Kami tetap tumbuh</p>
-    <StyledLink to="/">Blog</StyledLink>
+    <p>Satu Tim Satu Nyawa  | Kami Tetap Tumbuh</p>
+    <StyledLink to="https://blog.mkplxix.net">Blog</StyledLink>
     <StyledLink>Member</StyledLink>
     <StyledLink>Business</StyledLink>
   </Container>
