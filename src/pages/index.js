@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -13,7 +12,7 @@ const Container = styled.div`
   color: #fff;
 `
 
-const StyledLink = styled(Link)`
+const StyledLink = styled.a`
   color: #000;
   text-decoration: none;
   margin: 0 1rem;
@@ -23,7 +22,7 @@ const IndexPage = () => (
   <Container>
     <h1>Makapala PDM XIX</h1>
     <p>Satu Tim Satu Nyawa  | Kami Tetap Tumbuh</p>
-    <StyledLink to="https://blog.mkplxix.net">Blog</StyledLink>
+    <StyledLink href="https://blog.mkplxix.net">Blog</StyledLink>
     <StyledLink>Member</StyledLink>
     <StyledLink>Business</StyledLink>
   </Container>
